@@ -47,6 +47,7 @@ namespace labwork3
                         Вільних_місць = result.Value
                     });
                     Task2_GridView.DataBind();
+                    Session["Task2"] = null;
                 }
                 }
 

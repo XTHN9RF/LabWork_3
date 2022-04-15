@@ -62,6 +62,7 @@ namespace labwork3
                         Щоденна_Платня = res.daily_fee
                     });
                     Task1_GridView.DataBind();
+                    Session["Task1"] = null;
                 }
             }
         }
